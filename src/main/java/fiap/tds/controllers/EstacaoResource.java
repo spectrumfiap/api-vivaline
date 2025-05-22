@@ -8,7 +8,7 @@ import jakarta.ws.rs.core.Response;
 
 import java.util.List;
 
-@Path("/estacoes")
+@Path("/Estacoes")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 public class EstacaoResource {
