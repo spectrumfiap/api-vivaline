@@ -43,9 +43,6 @@ public class UserService {
         return true;
     }
 
-    public User buscarPorEmail(String email) {
-        return repository.buscarPorEmail(email);
-    }
 
     public boolean autenticar(String email, String senha) {
         User user = repository.buscarPorEmail(email);
