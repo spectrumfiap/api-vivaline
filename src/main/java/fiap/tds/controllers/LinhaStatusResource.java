@@ -11,7 +11,7 @@ import org.jboss.logging.Logger;
 
 import java.util.List;
 
-@Path("/Statuslinhas")
+@Path("/StatusLinhas")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 public class LinhaStatusResource {
